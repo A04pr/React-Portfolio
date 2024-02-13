@@ -1,7 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
@@ -9,16 +7,13 @@ import Resume from './components/Resume.jsx';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
-      <Switch>
-        <Route path="/" exact component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
-      <Footer />
-    </Router>
+      <AboutMe />
+      <Portfolio />
+      <Contact />
+      <Resume />
+    </>
   );
 }
 
