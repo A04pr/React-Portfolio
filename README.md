@@ -1,8 +1,32 @@
-# React + Vite
+React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+Description:
+This is a personal portfolio created using React and Vite. It has a brief about me, a section showin the projects ive been a part of, and a contact info page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Table of Contents:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+Installation:
+Clone from github
+
+Usage:
+Open the deployed link or navigate to the client folder and run 'npm run dev'
+
+Contribution:
+View only
+
+License
+
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Questions:
+For any questions, please feel free to contact via:
+- GitHub: [A04pr](https://github.com/A04pr)
