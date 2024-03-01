@@ -1,9 +1,12 @@
 {
+  "homepage": "https://A04pr.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "npm install && cd client && npm install vite && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd client && npm run build"
