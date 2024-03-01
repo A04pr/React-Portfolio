@@ -5,6 +5,8 @@ React Portfolio
 Description:
 This is a personal portfolio created using React and Vite. It has a brief about me, a section showin the projects ive been a part of, and a contact info page.
 
+![Screenshot](client\public\assets\react.PNG)
+
 Table of Contents:
 - [Installation](#installation)
 - [Usage](#usage)
